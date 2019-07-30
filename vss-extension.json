@@ -1,0 +1,88 @@
+{
+    "manifestVersion": 1,
+    "id": "aicustomevent",
+    "name": "AI Custom Event",
+    "version": "0.1.0",
+    "publisher": "RomanKotlyar",
+    "targets": [
+        {
+            "id": "Microsoft.VisualStudio.Services"
+        }
+    ],
+    "Description": "Send custom event to Application Insight.",
+    "categories": [
+        "Azure Pipelines"
+    ],
+    "tags": [
+        "Application Insights"
+    ],
+    "icons": {
+        "default": "images/icon.png"
+    },
+    "content": {
+        "details": {
+            "path": "README.md"
+        },
+        "license": {
+            "path": "LICENSE.md"
+        }
+    },
+    "galleryFlags": [
+        "Public",
+        "Preview"
+    ],
+    "links": {
+        "home": {
+            "uri": "https://github.com/RoKotMan/AI-Custom-Event"
+        },
+        "getstarted": {
+            "uri": "https://github.com/RoKotMan/AI-Custom-Event"
+        },
+        "support": {
+            "uri": "https://github.com/RoKotMan/AI-Custom-Event"
+        }
+    },
+    "branding": {
+        "color": "rgb(104, 33, 122)",
+        "theme": "dark"
+    },
+    "files": [
+        {
+            "path": "AICustomEvent"
+        },
+        {
+            "path": "screenshots/screen1.jpg",
+            "addressable": true
+        },
+        {
+            "path": "screenshots/screen2.jpg",
+            "addressable": true
+        },
+        {
+            "path": "images/icon.png",
+            "addressable": true
+        }
+    ],
+    "repository": {
+        "type": "git",
+        "uri": "https://github.com/RoKotMan/AI-Custom-Event"
+    },
+    "contributions": [
+        {
+            "id": "aicustomevent-task",
+            "type": "ms.vss-distributed-task.task",
+            "targets": [
+                "ms.vss-distributed-task.tasks"
+            ],
+            "properties": {
+                "name": "AICustomEvent",
+                "iconAsset": "my-publisher.my-extension/images/icon.png",
+                "_sharedData": {
+                    "assets": [
+                        "my-publisher.my-extension/images/icon.png"
+                    ]
+                }
+            }
+        }
+    ]
+}
